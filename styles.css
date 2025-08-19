@@ -2,19 +2,20 @@
     padding: 0px;
     margin:0px;
 }
-
+/* Title */
 header{
     background-color: #0511b7;
     align-items: center;
     padding-top: 5px;
     width:100%;
-    /*padding-bottom: 5px;*/
+    padding-bottom: 10px;
 }
 
+/*  */
 header h1{
     text-align: center;
     color: #28efef;
-    font-size: 60px;
+    font-size: 100px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -25,6 +26,8 @@ header h1{
     padding-top: 5px;
     background-color:rgb(6, 6, 6);
     padding-bottom: 5px;
+
+    
 }
 .nav-bar a{
     font-size: 20px;
@@ -54,7 +57,6 @@ footer{
     bottom:0;
     position: fixed;
     background-color: #0511b7;
-9ddd;
     width:100%;
     text-align: center;
     padding-top: 5px;
@@ -65,7 +67,7 @@ footer{
 
 
 
-/* content section */
+/* ContactUs */
 
 .content{
     padding-top: 10px;
@@ -91,7 +93,7 @@ footer{
 }
 
 .content th, .content td{
-    border: 3px solid#000000;
+    border: 5px solid#000000;
     padding: 15px;
 }
 
@@ -120,8 +122,8 @@ footer{
 .content input, .content textarea
 {
     margin-bottom: 5px;
-    width: 250px;        
-    padding: 6px;
+    width: 350px;        
+    padding: 15px;
     border: 1px solid #bbb;
     border-radius: 4px;
     font-size: 14px;
